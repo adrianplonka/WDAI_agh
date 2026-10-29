@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3 – Colorful Squares</title>
+    <style>
+      .back-link {
+        display: inline-block;
+        margin-bottom: 1rem;
+        color: #555;
+      }
+ 
+      .squares {
+        display: flex;
+        flex-direction: column; 
+        gap: 10px;
+      }
+ 
+      .row {
+        display: flex; 
+        gap: 10px;
+      }
+ 
+      .square {
+        width: 100px;
+        height: 100px;
+      }
+ 
+      img.square {
+        display: block;
+        object-fit: cover;
+      }
+ 
+      .red {
+        background-color: #e74c3c;
+      }
+ 
+      .blue {
+        background-color: #3498db;
+      }
+ 
+      .green {
+        background-color: #2ecc71;
+      }
+
+      .purple {
+        background-color: #9b59b6;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="back-link" href="./index.html">&larr; Back to tasks list</a>
+
+      <h1>Colorful Squares</h1>
+
+      <div class="squares">
+        <div class="row">
+          <div class="square red"></div>
+          <div class="square blue"></div>
+        </div>
+        <div class="row">
+          <div class="square green"></div>
+          <img class="square" src="./img/salmon.jpg" alt="Cat image instead of a square" />
+          <div class="square purple"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
